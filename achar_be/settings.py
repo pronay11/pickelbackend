@@ -115,7 +115,9 @@ CORS_ALLOW_HEADERS = [
 
 
 
-CORS_ORIGINS_WHITELIST = ['http://localhost:3000']
+CORS_ORIGINS_WHITELIST = ['https://temp-app-reactecom.herokuapp.com',
+                          'http://temp-app-reactecom.herokuapp.com',
+                          ]
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
