@@ -32,6 +32,7 @@ netifaces==0.10.4
 oauth==1.0.1
 olefile==0.45.1
 openshot-qt==2.5.1.dev2
+pbr==5.6.0
 pexpect==4.2.1
 pickleshare==0.7.4
 Pillow==5.1.0
@@ -62,6 +63,7 @@ six==1.11.0
 sqlparse==0.2.4
 system-service==0.3
 systemd-python==234
+testresources==2.0.1
 traitlets==4.3.2
 typing-extensions==3.10.0.0
 ubuntu-drivers-common==0.0.0
