@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-1oe+73j@)^+s2cna%vq=qlq6!lhcn=o57j1b&s6@s)g62a4j83
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['djangopickelbackend.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['djangopickelbackend.herokuapp.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -46,7 +46,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
+    # 'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
